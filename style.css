@@ -1,5 +1,5 @@
 body {
-	background: black;
+	background: #38c24f;
 }
 
 p {
@@ -17,7 +17,7 @@ p {
 }
 
 #main-menu {
-	border-radius: 20px;
+	border: 3px solid black;
 	position: absolute;
 	text-align: center;
 	margin-left: auto;
@@ -28,10 +28,30 @@ p {
 	font-size: 25px;
 	height: 300px;
 	width: 200px;
-	background: green;
-	opacity: 0.8;
+	background: #016f13;
 	z-index: 99999;
 	visibility: visible;			
+}
+
+#results {
+	border: 3px solid black;
+	position: absolute;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	margin-top: 50px;
+	font-size: 25px;
+	height: 320px;
+	width: 200px;
+	background: #016f13;
+	z-index: 99999;
+	visibility: hidden;
+}
+
+#results p {
+	margin-top: 20px;
 }
 
 #main-menu p {
@@ -39,6 +59,7 @@ p {
 }
 
 #game-container {
+	padding: 10px;
 	background: black;
 	border: 2px solid green;
 	border-radius: 10px;
@@ -54,15 +75,20 @@ p {
 
 button {
 	margin-top: 40px;
-	font-size: 15px;
+	border: 2px solid black;
+	font-size: 19px;
+	font-weight: 600;
 	width: 150px;
 	height: 50px;
+	background: #7fd78e;
 }
 
 select {
+	background: #7fd78e;
 	margin-top: 20px;
 	width: 150px;
 	height: 40px;
+	border: 2px solid black;
 	font-size: 15px;
 }
 
@@ -90,24 +116,6 @@ select {
 	border: 1px solid black;
 	transform: translateY(-1px) translateX(-1px);
 	z-index: 9998;
-}
-
-#results {
-	position: absolute;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	margin-top: 50px;
-	font-size: 25px;
-	height: 300px;
-	width: 200px;
-	background: green;
-	opacity: 0.8;
-	border-radius: 20px;
-	z-index: 99999;
-	visibility: hidden;
 }
 
 .containers {
